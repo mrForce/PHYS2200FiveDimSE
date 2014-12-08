@@ -1,0 +1,8 @@
+unset key
+set style data line
+
+set term png
+set o "results.png"
+
+
+p [0:] [0:] "results.txt" u 1:2
